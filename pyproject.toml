@@ -1,0 +1,11 @@
+[project]
+name = "rag.py"
+version = "0.1.0"
+description = "rag.py: LLM chatbot with RAG, response streaming and chat history in one file"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.6.3",
+    "ollama>=0.4.7",
+    "pypdf>=5.3.0",
+]
